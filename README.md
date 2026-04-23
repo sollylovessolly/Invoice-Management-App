@@ -87,19 +87,19 @@ React Router used for navigation
 /new             → Create Invoice
 /edit/:id        → Edit Invoice (overlay)
 ## Trade-offs & Decisions
-#1. Context vs External State Library
+# 1. Context vs External State Library
 Used Context + useReducer instead of Redux/Zustand
 Reason: lighter setup and sufficient for app scale
 #2. Custom Dropdown vs Native Select
 Implemented custom dropdown for Payment Terms
 Reason: native <select> cannot match Figma design
-#3. Date Picker
+# 3. Date Picker
 Used react-datepicker for better UX
 Trade-off: additional dependency, but closer to design
-#4. LocalStorage as Backend
+# 4. LocalStorage as Backend
 Chosen for simplicity and offline support
 Trade-off: no real backend persistence or multi-user support
-#5. Overlay Form (Edit/New)
+# 5. Overlay Form (Edit/New)
 Form implemented as a sliding overlay
 Matches Figma behavior and improves UX
 # Accessibility Notes
@@ -117,13 +117,13 @@ Authentication system
 Export invoices (PDF)
 Search functionality
 Pagination for large datasets
-#Tech Stack
+# Tech Stack
 React
 Tailwind CSS
 React Router
 React DatePicker
 LocalStorage
- Author
+ # Author
 
 Built by solly
 Frontend Developer 
